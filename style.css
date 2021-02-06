@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+nav {
+  text-align: center;
+  margin-top: -1%;
+}
+
+.nav-link {
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.ep-release {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5%;
+  margin-top: 5%;
+  grid-template-areas:
+    'text cover';
+  align-items: center;  
+}
+
+.ep-cover-top {
+  width: 50%;
+  margin-left: 0%;
+  box-shadow: 15px 15px black;
+  border: 3.5px solid black;
+  grid-area: cover;
+}
+
+.imp-cap {
+  grid-area: text;
+  display: grid;
+  grid-template-rows: 30% 35% 35%; 
+}
+
+ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+li {
+  font-family: Lato;
+}
+
+h1 {
+  text-align: right;
+  font-family: 'Concert One';
+  text-transform: uppercase;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+h2 {
+  text-align: right;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+.square {
+  width: 10px;
+  height: 10%;
+  background-white;
+}
+
+.our-music {
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+.latest {
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+.music-title {
+  background: black;
+  padding-left: 10px;
+  width: 35%;
+  box-shadow: -18px 12px white, -15px 15px black;
+  margin-bottom: 30px;
+  margin-top: 10%;
+}
+
+#album-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 2%;
+  margin: 5%;
+}
+
+.gallery-covers {
+  width: 100%;
+  border: 3px solid black;
+}
+
+#contact {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  align-items: center;
+  grid-column-gap: 5%; 
+  margin-top: 10%;
+}
+
+form {
+  align: right;
+  display: grid;
+  grid-template-rows: 20% 60% 20%;
+  grid-row-gap: 20%;
+}
+
+.text-1 {
+  font-family: monospace;
+  padding: 5%;
+  width: 100%;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+}
+
+.top-form-part {
+  display: grid;
+  grid-template-columns: repeat(2, 20%);
+  grid-column-gap: 5%;
+}
+
+textarea {
+  font-family: monospace;
+  padding: 2%;
+  width: 60%;
+  height: 65%;
+  border: 3px solid black;
+  box-shadow: 5px 5px black;
+  margin-bottom: 4%;
+}
+
+button {
+  border: 3px solid black;
+  background: white;
+  font-family: monospace;
+  width: 80px;
+  height: 100%;
+  color: black;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+.contact-img {
+  width: 90%;
+}
+
+#about {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+#our-trio {
+  text-align: left;
+}
+
+p {
+  font-family: Lato;
+}
+
+#about-card {
+  width: 35%;
+  border: 3px solid black;
+  background: white;
+  box-shadow: 15px 15px black;
+  padding: 20px;
+  margin-left: 80%;
+  z-index: 1000;
+}
+
+.about-img {
+  width: 100%;
+}
