@@ -6,8 +6,8 @@ if (isset($_POST['submit'])) {
   $message = $_POST['message'];
   
   $mailTo = "georgeyofficial@gmail.com";
-  $headers = "From: ".$email;
-  $txt = "You have received a message from ".$name.".\n\n".$message;
+  $headers = "From: georgyofficial@gmail.com";
+  $txt = "Email: ".$email."\n\n""You have received a message from ".$name.".\n\n".$message;
   
   mail($mailTo, $txt, $headers);
   header("Location: index.php?mailsend");
