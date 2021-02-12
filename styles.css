@@ -251,6 +251,18 @@ footer {
   width: 100%;
 }
 
+@media (max-width: 1024px) {
+  #small {
+    display: block;
+  }
+  .img-cap h1 {
+    display: none;
+  }
+  #about-card {
+    width: 50%;
+  }
+}
+
 @media (max-width: 480px) {
   #logo {
     width: 40%;
@@ -347,14 +359,3 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
-  #small {
-    display: block;
-  }
-  .img-cap h1 {
-    display: none;
-  }
-  #about-card {
-    width: 50%;
-  }
-}
