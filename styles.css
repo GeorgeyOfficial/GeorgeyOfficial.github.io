@@ -251,7 +251,7 @@ footer {
   width: 100%;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 800px) and (max-width: 1024px) and (orientation: landscape) {
   #small {
     display: block;
   }
@@ -263,7 +263,7 @@ footer {
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 799px) {
   #logo {
     width: 40%;
   }
