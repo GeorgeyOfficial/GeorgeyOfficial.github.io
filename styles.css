@@ -263,7 +263,7 @@ footer {
   }
 }
 
-@media (min-width: 320px) and (max-width: 799px) {
+@media (max-width: 799px) {
   #logo {
     width: 40%;
   }
