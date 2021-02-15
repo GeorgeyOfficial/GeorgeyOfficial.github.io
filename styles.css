@@ -107,7 +107,7 @@ h2 {
 .album-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .gallery-covers {
@@ -318,7 +318,6 @@ footer {
     display: block;
     margin-bottom: 40%;
   }
-  .album-card {display: block;}
   
   .gallery-covers {width: 60%;}
   
