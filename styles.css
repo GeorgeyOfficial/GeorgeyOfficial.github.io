@@ -318,7 +318,7 @@ footer {
     display: block;
     margin-bottom: 40%;
   }
-  .album-card {justify-content: center;}
+  .album-card {display: block;}
   
   .gallery-covers {width: 60%;}
   
