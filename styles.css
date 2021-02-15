@@ -108,6 +108,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
 }
 
 .gallery-covers {
@@ -320,6 +321,10 @@ footer {
   }
   .gallery-covers {
     width: 60%;
+  }
+  #listen-here {
+    width: 60%;
+    height: 5%;
   }
   #about {
     display: block;
