@@ -318,9 +318,10 @@ footer {
     display: block;
     margin-bottom: 40%;
   }
-  .gallery-covers {
-    width: 60%;
-  }
+  .album-card {justify-content: center;}
+  
+  .gallery-covers {width: 60%;}
+  
   #listen-here {
     width: 60%;
     height: 5%;
