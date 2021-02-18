@@ -263,7 +263,7 @@ footer {
   width: 100%;
 }
 
-@media (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
   #small {
     display: block;
   }
@@ -275,7 +275,7 @@ footer {
   }
 }
 
-@media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
   #about-card {
     width: 100%;
     margin-left: 10%;
