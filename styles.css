@@ -277,7 +277,7 @@ footer {
 
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
   #about-card {
-    width: 35%;
+    width: 90%;
     margin-left: 30%;
   }
   #small {
