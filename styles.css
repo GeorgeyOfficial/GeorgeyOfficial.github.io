@@ -273,12 +273,6 @@ footer {
   #about-card {
     width: 50%;
   }
-  h2 {
-    font-size: 25px;
-  }
-  footer-link {
-    font-size: 10px;
-  }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
@@ -291,6 +285,12 @@ footer {
   }
   .img-cap h1 {
     display: none;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .footer-link {
+    font-size: 10px;
   }
 }
 
