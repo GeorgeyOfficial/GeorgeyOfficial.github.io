@@ -292,6 +292,9 @@ footer {
   .footer-link {
     font-size: 10px;
   }
+  .music-title {
+    width: 50%;
+  }
 }
 
 @media (max-width: 480px) {
