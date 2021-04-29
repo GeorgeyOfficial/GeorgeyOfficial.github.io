@@ -346,7 +346,12 @@ footer {
     flex-direction: column;
     align-items: flex-start; 
   }
-  .gallery-covers {width: 60%;}
+  .gallery-covers {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   #listen-here {
     width: 60%;
     height: 5%;
