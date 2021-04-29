@@ -346,6 +346,7 @@ footer {
   #listen-here {
     width: 60%;
     height: 5%;
+    margin-bottom: 10%;
   }
   #about {
     display: block;
