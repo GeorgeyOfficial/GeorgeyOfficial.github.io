@@ -341,7 +341,11 @@ footer {
     display: block;
     margin-bottom: 40%;
   }
-  .album-card {display: block;}
+  .album-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+  }
   .gallery-covers {width: 60%;}
   #listen-here {
     width: 60%;
