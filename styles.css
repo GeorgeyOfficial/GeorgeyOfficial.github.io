@@ -213,13 +213,13 @@ p {
   font-family: 'Concert One';
   text-transform: uppercase;
   font-size: 45px;
-  line-height: 40px;
+  line-height: 45px;
 }
 
 .merch-sub {
   text-align: center;
   font-size: 15px;
-  line-height: 2;
+  line-height: 5px;
 }
 
 #merch-gallery {
