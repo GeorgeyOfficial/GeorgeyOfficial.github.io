@@ -416,6 +416,11 @@ footer {
     position: relative;
     z-index: 1;
   }
+  
+  .merch-covers {
+    width: 150%;
+  }
+  
   #contact {
     display: block;
   }
