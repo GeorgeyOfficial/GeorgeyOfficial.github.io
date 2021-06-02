@@ -219,6 +219,7 @@ p {
 .merch-sub {
   text-align: center;
   font-size: 15px;
+  line-height: 2;
 }
 
 #merch-gallery {
