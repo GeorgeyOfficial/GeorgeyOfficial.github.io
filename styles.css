@@ -215,7 +215,7 @@ p {
   font-size: 45px;
   line-height: 45px;
   margin-bottom: 1%;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .merch-sub {
@@ -421,7 +421,7 @@ footer {
   }
   
   .merch-covers {
-    width: 150%;
+    width: 200%;
   }
   
   #contact {
